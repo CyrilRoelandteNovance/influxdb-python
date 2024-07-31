@@ -34,7 +34,7 @@ warnings.simplefilter('error', FutureWarning)
 
 if not using_pypy:
     import pandas as pd
-    from pandas.util.testing import assert_frame_equal
+    from pandas.testing import assert_frame_equal
 
 
 THIS_DIR = os.path.abspath(os.path.dirname(__file__))
